@@ -12,6 +12,12 @@
         },
         {
             "type": "ruby_lsp",
+            "name": "Debug Rspec test",
+            "request": "launch",
+            "program": "rspec ${relativeFile}"
+        },
+        {
+            "type": "ruby_lsp",
             "name": "Debug test",
             "request": "launch",
             "program": "ruby -Itest ${relativeFile}"
